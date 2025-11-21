@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image gallery</title>
+  </head>
+  <body>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      h1 {
+        color: white;
+        text-align: center;
+        padding: 10px;
+        text-align: center;
+        width: 700px;
+        margin: auto;
+        border-bottom: 4px solid white;
+        padding-bottom: 8px;
+      }
+      body {
+        background-color: black;
+      }
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .gallery img {
+        flex-basis: 20%;
+        height: 300px;
+        margin: 15px;
+        width: 150px;
+      }
+    </style>
+    <div class="main">
+      <h1>Tecknowledge</h1>
+      <div class="gallery">
+        <img src="image/Ai.jpg" alt="" />
+        <img src="image/BC.jpg" alt="" />
+        <img src="image/Cloud.jpg" alt="" />
+        <img src="image/CS.jpg" alt="" />
+        <img src="image/Devops.jpg" alt="" />
+        <img src="image/DS.jpg" alt="" />
+        <img src="image/FSWD.jpg" alt="" />
+        <img src="image/UI.jpg" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
